@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: web
+#  profiles:
+#    active: development
+  cloud:
+    config:
+      uri: http://localhost:8888
+  rabbitmq:
+        addresses: amqp://10.224.68.72:5673
+        username: guest
+        password: guest
+encrypt:
+  failOnError: false

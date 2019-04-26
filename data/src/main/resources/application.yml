@@ -1,0 +1,19 @@
+neo4j:
+  datasource:
+    url: http://10.224.68.72:32773
+    username: neo4j
+    password: 201314
+
+server:
+  port: 9000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eureka:
+    enabled: true

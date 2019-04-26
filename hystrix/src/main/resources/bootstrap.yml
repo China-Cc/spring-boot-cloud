@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: hystrix
+  cloud:
+    config:
+      uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://10.224.68.72:8888}
+      
